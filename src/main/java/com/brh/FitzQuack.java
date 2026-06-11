@@ -11,11 +11,9 @@ public class FitzQuack {
         for(int i = 0; i <= 100; i++) {
             if (i % 5 == 0 && i % 7 == 0) {
                 System.out.println("FitzQuack");
-            }
-            else if (i % 5 == 0) {
+            }else if (i % 5 == 0) {
                 System.out.println("Fitz");
-            }
-            else if (i % 7 == 0) {
+            }else if (i % 7 == 0) {
                 System.out.println("Quack");
             } else {
                 System.out.println(i);
